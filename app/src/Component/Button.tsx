@@ -1,11 +1,16 @@
 import React from "react";
-class Buttonelement extends React.Component {
+
+interface ButtonElementProps {
+  label: string;
+  onClick: () => void;
+}
+
+class ButtonElement extends React.Component<ButtonElementProps> {
   render() {
-    return (
-      <div id="submitbtn">
-        <button>Submit</button>
-      </div>
-    );
+    const { label, onClick } = this.props;
+
+    return <button onClick={onClick}>{label}</button>;
   }
 }
- export default Buttonelement
+
+export default ButtonElement;
