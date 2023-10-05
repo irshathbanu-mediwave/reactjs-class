@@ -1,0 +1,32 @@
+#App {
+  margin: auto;
+  width: 400px;
+  text-align: center;
+  height: 300px;
+  background-color: cadetblue;
+}
+#Firstname {
+  margin: auto;
+  width: 200px;
+}
+#Lastname {
+  width: 200px;
+}
+#Age {
+  width: 200px;
+}
+#age-label {
+  margin-left: 40px;
+}
+#img-item {
+  margin-top: 10px;
+  width: 100px;
+  height: fit-content;
+  border-radius: 50px;
+}
+#submit-btn {
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+}
